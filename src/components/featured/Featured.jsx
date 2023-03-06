@@ -1,6 +1,4 @@
 import React from "react";
-import SerachIcon from "../../../public/img/search.png";
-import ManImg from "../../../public/img/man.png";
 import "./featured.scss";
 
 const Featured = () => {
@@ -15,7 +13,7 @@ const Featured = () => {
           </div>
           <div className="search">
             <div className="searchInput">
-              <img src={SerachIcon} alt="" />
+              <img src="/src/img/search.png" alt="" />
               <input type="text" placeholder="Try building mobile app" />
             </div>
             <button>Search</button>
@@ -29,7 +27,7 @@ const Featured = () => {
           </div>
         </div>
         <div className="right">
-          <img src={ManImg} alt="" />
+          <img src="/src/img/man.png" alt="" />
         </div>
       </div>
     </div>
